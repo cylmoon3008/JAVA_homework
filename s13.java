@@ -293,7 +293,6 @@ class CCreateOrderdbX
 		Create_TB += " PRIMARY KEY (No)) ENGINE = InnoDB";
 		stmt.executeUpdate(Create_TB);
 
-		//JOptionPane.showMessageDialog(null, "點餐資料表建立成功！");
 		stmt.close();
 		conn.close();
 	}
